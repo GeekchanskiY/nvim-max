@@ -1,6 +1,7 @@
 require("keymaps")
 o = vim.opt
 
+
 o.mouse = "a"
 o.shiftwidth = 4
 o.tabstop = 4
