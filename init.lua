@@ -1,4 +1,4 @@
-require("keymaps")
+require("./keymaps")
 o = vim.opt
 
 
