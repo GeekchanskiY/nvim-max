@@ -1,4 +1,6 @@
-require("./keymaps")
+require "keymaps"
+require "config.lazy"
+
 o = vim.opt
 
 
