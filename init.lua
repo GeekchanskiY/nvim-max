@@ -2,7 +2,7 @@ require "keymaps"
 require "config.lazy"
 
 o = vim.opt
-
+g = vim.global
 
 o.mouse = "a"
 o.shiftwidth = 4
@@ -19,4 +19,5 @@ o.smartindent = true
 o.cmdheight = 2
 o.swapfile = false
 o.wrap = false
+o.syntax= "on"
 
