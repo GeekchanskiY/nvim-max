@@ -1,5 +1,8 @@
 require "keymaps"
 require "config.lazy"
+require "config.colorscheme"
+
+require "plugins.go_nvim"
 
 o = vim.opt
 g = vim.global
