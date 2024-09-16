@@ -3,11 +3,12 @@ require "keymaps"
 require "config.lazy"
 require "config.colorscheme"
 require "config.telescope"
+require "config.autocompletion"
+require "config.tabnine"
 
 
 o = vim.opt
 g = vim.global
-
 o.mouse = "a"
 o.shiftwidth = 4
 o.tabstop = 4
