@@ -9,3 +9,4 @@ if no clipboard provider
 sudo apt install xclip
 
 :TSInstall go
+:TSInstall lua
