@@ -4,11 +4,11 @@ vim.opt.completeopt = { "menu", "menuone", "noselect" }
 cmp.setup({
 	snippet = {
 		expand = function(args)
-			require("luasnip").lsp_expand(args.body) -- For `luasnip` users.
+			vim.fn["vsnip#anonymous"](args.body) -- For `luasnip` users.
 		end,
 	},
 	window = {
-		completion = cmp.config.window.bordered(),
+		-- completion = cmp.config.window.bordered(),
 		-- documentation = cmp.config.window.bordered(),
 	},
 	mapping = cmp.mapping.preset.insert({
@@ -18,15 +18,30 @@ cmp.setup({
 		["<C-e>"] = cmp.mapping.abort(),
 		["<CR>"] = cmp.mapping.confirm({ select = true }), -- accept currently selected item
 	}),
+
+	matching = { disallow_symbol_nonprefix_matching = false },
+
 	sources = cmp.config.sources({
 		{ name = "nvim_lsp" },
-		{ name = "nvim_lua" },
-	}, {
-		{ name = "buffer" },
+		{ name = "vsnip" },
 		{ name = "path" },
+		{ name = "buffer" },
+		{ name = "go_pkgs" },
+		{ name = "cmp_tabnine" },
 	}),
+
 })
 
+-- lspconfig setup
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+require('lspconfig')['gopls'].setup {
+    capabilities = capabilities
+}
+require('lspconfig')['lua_ls'].setup {
+    capabilities = capabilities
+}
+
+-- cmd line setup
 cmp.setup.cmdline(":", {
 	mapping = cmp.mapping.preset.cmdline(),
 	sources = cmp.config.sources({

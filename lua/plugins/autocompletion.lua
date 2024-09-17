@@ -8,5 +8,12 @@ return {
 		"hrsh7th/cmp-cmdline",
 		"saadparwaiz1/cmp_luasnip",
 		"L3MON4D3/LuaSnip",
+		
+		-- autocompletion
+		"hrsh7th/vim-vsnip",
+		"hrsh7th/cmp-vsnip",
+
+		-- go package autocompletion
+		"Snikimonkd/cmp-go-pkgs",
 	},
 }
