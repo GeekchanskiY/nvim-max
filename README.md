@@ -2,6 +2,15 @@
 I do use this config for development 100% of my work time
 
 
+## Setup
+
+To display icons and other stuff properly, install nerd font 
+copy font.zip and unarchive font to /usr/local/share/fonts/ 
+and then run:
+```bash
+sudo fc-cache -fv
+```
+
 nodejs required
 sudo apt-get install luarocks
 
