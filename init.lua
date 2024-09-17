@@ -37,6 +37,10 @@ o.history = 1000
 -- set buffers modifiable to avoid errors
 o.modifiable = true
 
+-- advanced options 
+o.scrolloff = 8
+o.updatetime = 50
+
 
 -- Treesitter default config (requires to be in init lua
 

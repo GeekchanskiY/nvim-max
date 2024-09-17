@@ -1,6 +1,7 @@
 # Nvim max config
 I do use this config for development 100% of my work time
 
+nvim version: 0.11.0-dev
 
 ## Setup
 
