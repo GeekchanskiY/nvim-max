@@ -13,15 +13,21 @@ sudo apt install xclip
 LSP Server installation guides 
 https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
 
-for lua i prefer to install brew & lua ls with it 
+for lua i prefer to install brew & then lua-language-server with it 
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Then follow installation instructions after brew installed & install lua-language-server:
+```
 brew install lua-language-server
 ```
 
 
 ## TODO's
+
+Vim-go is a GOAT, really: 
+https://github.com/fatih/vim-go/blob/master/doc/vim-go.txt
 
 Some sources for nvim cmp plugin
 https://github.com/hrsh7th/nvim-cmp/wiki/List-of-sources
