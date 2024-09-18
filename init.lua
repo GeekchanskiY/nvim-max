@@ -6,6 +6,8 @@ require "config.telescope"
 require "config.autocompletion"
 require "config.tabnine"
 require "config.neotree"
+require "config.auto_pairs"
+
 
 local o = vim.opt
 -- local g = vim.global
