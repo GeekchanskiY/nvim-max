@@ -24,7 +24,6 @@ LSP Server installation guides
 https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
 
 for lua i prefer to install brew & then lua-language-server with it 
-
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -32,6 +31,14 @@ Then follow installation instructions after brew installed & install lua-languag
 ```
 brew install lua-language-server
 ```
+
+ripgrep for grep in treesitter 
+```bash
+sudo apt-get install ripgrep
+```
+
+## Useful commands 
+-- DiffviewOpen / DiffviewClose - look through updates
 
 
 ## TODO's
@@ -41,4 +48,8 @@ https://github.com/fatih/vim-go/blob/master/doc/vim-go.txt
 
 Some sources for nvim cmp plugin
 https://github.com/hrsh7th/nvim-cmp/wiki/List-of-sources
+
+Obsidian integration lol
+https://github.com/epwalsh/obsidian.nvim
+
 
