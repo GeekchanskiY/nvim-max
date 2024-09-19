@@ -7,6 +7,7 @@ require "config.autocompletion"
 require "config.tabnine"
 require "config.neotree"
 require "config.auto_pairs"
+require "config.auto_tags"
 
 
 local o = vim.opt
