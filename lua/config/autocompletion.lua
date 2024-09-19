@@ -50,7 +50,6 @@ cmp.setup({
 		{ name = "sql" },
 		{ name = "vls" },
 		{ name = "ts_ls" },
-		{ nam}
 	}),
 
 })
