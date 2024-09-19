@@ -73,5 +73,5 @@ https://github.com/epwalsh/obsidian.nvim
 ## Hints (keymaps I do always forget about):
 ```
 u - undo changes 
-
+:noh - disable highlighting
 ```
