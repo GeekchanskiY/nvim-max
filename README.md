@@ -55,6 +55,14 @@ sudo apt-get install ripgrep
 
 Vim-go is a GOAT, really: 
 https://github.com/fatih/vim-go/blob/master/doc/vim-go.txt
+Some commands which are meta for me:
+```
+GoDoc 
+GoLint 
+GoImports/GoFmt 
+
+```
+
 
 Some sources for nvim cmp plugin
 https://github.com/hrsh7th/nvim-cmp/wiki/List-of-sources
@@ -62,4 +70,8 @@ https://github.com/hrsh7th/nvim-cmp/wiki/List-of-sources
 Obsidian integration lol
 https://github.com/epwalsh/obsidian.nvim
 
+## Hints (keymaps I do always forget about):
+```
+u - undo changes 
 
+```
