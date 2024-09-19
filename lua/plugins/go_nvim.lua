@@ -4,6 +4,10 @@ return {
     "ray-x/guihua.lua",
     "neovim/nvim-lspconfig",
     "nvim-treesitter/nvim-treesitter",
+	-- debug
+	"mfussenegger/nvim-dap",
+	"rcarriga/nvim-dap-ui",
+	"nvim-neotest/nvim-nio"
   },
   config = function()
     require("go").setup()
