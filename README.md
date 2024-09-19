@@ -23,6 +23,8 @@ sudo apt install xclip
 LSP Server installation guides 
 https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
 
+
+
 for lua i prefer to install brew & then lua-language-server with it 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -31,6 +33,14 @@ Then follow installation instructions after brew installed & install lua-languag
 ```
 brew install lua-language-server
 ```
+
+Language servers I also use:
+```bash 
+sudo npm install -g typescript-language-server typescript 
+sudo npm install -g vls
+
+```
+
 
 ripgrep for grep in treesitter 
 ```bash
