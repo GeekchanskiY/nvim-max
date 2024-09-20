@@ -3,6 +3,14 @@ local opts = { noremap = true, silent = true }
 
 vim.g.mapleader = ' '
 
+-- utils -- 
+local wrap = function(func, ...)
+  local args = {...}
+  return function()
+    func(unpack(args))
+  end
+end
+
 -- Window navigation -- 
 
 keymap("n", "<C-h>", "<C-w>h", opts)
@@ -25,3 +33,17 @@ keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprev<CR>", opts)
+
+-- Doc --
+
+local function doc()
+  if vim.bo.filetype == 'go' then
+    require("go.godoc").run()
+  else
+    print("cant show doc for this file type")
+  end
+end
+
+
+vim.keymap.set("n", "<leader>gs", doc, opts)
+

@@ -8,6 +8,7 @@ require "config.tabnine"
 require "config.neotree"
 require "config.auto_pairs"
 require "config.auto_tags"
+require "config.go_nvim"
 
 
 local o = vim.opt
