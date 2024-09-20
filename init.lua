@@ -10,7 +10,7 @@ require "config.auto_pairs"
 require "config.auto_tags"
 require "config.go_nvim"
 
-
+local g = vim.g
 local o = vim.opt
 -- local g = vim.global
 o.mouse = "a"
@@ -46,6 +46,13 @@ o.scrolloff = 8
 o.updatetime = 50
 
 
+-- codelens
+g.codelens_auto = 0 -- call codelens to see who made changes
+g.codelens_show_references = 1
+g.codelens_show_tests = 1
+g.codelens_allow_same_line = 1
+g.codelens_bg_colour='#282828' -- gruvbox bg
+g.codelens_fg_colour='#458588'
 -- Treesitter default config (requires to be in init lua
 
 require'nvim-treesitter.configs'.setup {
