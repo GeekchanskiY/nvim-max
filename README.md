@@ -37,8 +37,6 @@ brew install lua-language-server
 Language servers I also use:
 ```bash 
 sudo npm install -g typescript-language-server typescript 
-sudo npm install -g vls
-
 ```
 
 
@@ -50,6 +48,8 @@ sudo apt-get install ripgrep
 ## Useful commands 
 -- DiffviewOpen / DiffviewClose - look through updates
 
+You'll possibly need to update nodejs 
+https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
 
 ## TODO's
 

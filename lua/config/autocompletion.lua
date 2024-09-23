@@ -48,7 +48,6 @@ cmp.setup({
 		{ name = "go_pkgs" },
 		{ name = "cmp_tabnine" },
 		{ name = "sql" },
-		{ name = "vls" },
 		{ name = "ts_ls" },
 	}),
 
@@ -61,12 +60,10 @@ require('lspconfig')['gopls'].setup {
 }
 
 require('lspconfig')['ts_ls'].setup {
-    capabilities = capabilities
+    capabilities = capabilities,
+	filetypes = { 'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json' }
 }
 
-require('lspconfig')['vls'].setup {
-    capabilities = capabilities
-}
 
 require('lspconfig')['lua_ls'].setup {
     capabilities = capabilities,
