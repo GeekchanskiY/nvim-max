@@ -75,3 +75,6 @@ https://github.com/epwalsh/obsidian.nvim
 u - undo changes 
 :noh - disable highlighting
 ```
+
+something interesting 
+https://github.com/numToStr/Comment.nvim
