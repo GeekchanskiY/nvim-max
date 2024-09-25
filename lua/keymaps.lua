@@ -31,9 +31,10 @@ keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
 -- Buffers --
 
-keymap("n", "<S-l>", ":bprev<CR>", opts)
-keymap("n", "<S-h>", ":bnext<CR>", opts)
-
+keymap("n", "<S-l>", "<Cmd>BufferNext<CR>", opts)
+keymap("n", "<S-h>", "<Cmd>BufferPrevious<CR>", opts)
+keymap("n", "<S-j>", "<Cmd>BufferClose<CR>", opts)
+keymap("n", "<S-k>", "<Cmd>BufferPin<CR>", opts)
 -- Doc --
 
 local function doc()
