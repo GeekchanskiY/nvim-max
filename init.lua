@@ -1,4 +1,5 @@
 require "keymaps"
+require "hooks"
 
 require "config.lazy"
 require "config.colorscheme"
