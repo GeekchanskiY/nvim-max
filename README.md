@@ -83,3 +83,5 @@ https://github.com/numToStr/Comment.nvim
 check how to create custom behavior here:
 https://github.com/weizheheng/nvim-workbench/blob/main/lua/workbench/project_workbench.lua 
 
+hook docs:
+https://neovim.io/doc/user/autocmd.html#_5.-events
