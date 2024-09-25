@@ -74,6 +74,8 @@ https://github.com/epwalsh/obsidian.nvim
 ```
 u - undo changes 
 :noh - disable highlighting
+grr - find references 
+gd - goto definition
 ```
 
 something interesting 
@@ -85,3 +87,6 @@ https://github.com/weizheheng/nvim-workbench/blob/main/lua/workbench/project_wor
 
 hook docs:
 https://neovim.io/doc/user/autocmd.html#_5.-events
+
+lsp docs: 
+https://neovim.io/doc/user/lsp.html
