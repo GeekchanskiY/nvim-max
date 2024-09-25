@@ -31,7 +31,8 @@ o.wrap = false
 o.syntax= "on"
 o.tabstop = 4
 o.softtabstop = 4
--- o.cc = 79
+-- o.cc = "99"
+
 o.smarttab = true
 o.wrap = false
 o.showcmd = true
@@ -57,7 +58,17 @@ g.codelens_fg_colour='#458588'
 
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names
-  ensure_installed = { "c", "javascript", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", "go" },
+  ensure_installed = {
+	  "c",
+	  "javascript",
+	  "lua",
+	  "vim",
+	  "vimdoc",
+	  "query",
+	  "markdown",
+	  "markdown_inline",
+	  "go",
+  },
 
   sync_install = false,
 
@@ -65,7 +76,8 @@ require'nvim-treesitter.configs'.setup {
 
   ignore_install = {},
 
-  -- parser_install_dir = "/some/path/to/store/parsers", -- Remember to run vim.opt.runtimepath:append("/some/path/to/store/parsers")!
+  -- parser_install_dir = "/some/path/to/store/parsers", 
+  -- Remember to run vim.opt.runtimepath:append("/some/path/to/store/parsers")!
 
   highlight = {
     enable = true,
