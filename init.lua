@@ -15,6 +15,7 @@ require "config.lualune"
 local g = vim.g
 local o = vim.opt
 -- local g = vim.global
+-- asdasd
 o.mouse = "a"
 o.shiftwidth = 4
 o.tabstop = 4
@@ -33,6 +34,7 @@ o.wrap = false
 o.syntax= "on"
 o.tabstop = 4
 o.softtabstop = 4
+-- o.showtabline = 2
 -- o.cc = "99"
 
 o.smarttab = true

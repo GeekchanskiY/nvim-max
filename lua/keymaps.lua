@@ -31,8 +31,8 @@ keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
 -- Buffers --
 
-keymap("n", "<S-l>", ":bnext<CR>", opts)
-keymap("n", "<S-h>", ":bprev<CR>", opts)
+keymap("n", "<S-l>", ":bprev<CR>", opts)
+keymap("n", "<S-h>", ":bnext<CR>", opts)
 
 -- Doc --
 
