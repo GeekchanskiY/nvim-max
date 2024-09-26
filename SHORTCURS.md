@@ -10,6 +10,7 @@
 `dw` - delete remaining chars
 `dd` - delete line 
 `de` - delete word
+`cw` - deletes word and drops to import
 `>G` - increase indentation till the end of file 
 
 `A` - start editing at the end of line
@@ -17,6 +18,8 @@
 `o` - start editing at the new line
 `s` - compounds steps (delete character, place another, and be able to replace others by `.`)
 `f` - find char (`;` - take to other target)
+`u` - undo
+`<CTRL+r>` - redo
 ### insert mode 
 `alt+A` - going to the end of line wihout exiting insert mode 
 `alt+o`, `alt+O` - newline 
