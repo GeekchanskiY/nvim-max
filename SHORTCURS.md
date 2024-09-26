@@ -8,7 +8,9 @@
 `alt+o`, `alt+O` - newline 
 `alt+p` - paste 
 
-
+### Split windows 
+`num + <C-w> + '+/-'` increase/decrease height 
+`num + <C-w> + '</>'` increase/decrease width (ex.)
 
 ### useless, but fun 
 `ctrl+a`, `ctrl+x` on a number - increment or decrement it.
