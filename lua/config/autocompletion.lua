@@ -54,7 +54,12 @@ cmp.setup({
 -- lspconfig setup
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 require('lspconfig')['gopls'].setup {
-    capabilities = capabilities
+    capabilities = capabilities,
+	settings = {
+		gopls = {
+			buildFlags = {"-tags=units"}
+		}
+	}
 }
 
 require('lspconfig')['ts_ls'].setup {
